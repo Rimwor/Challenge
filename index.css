@@ -25,11 +25,13 @@ body, html {
 
 .text-block-one {
     text-align: center;
+    overflow-y: hidden;
+    word-wrap: break-word;
 }
 
 .text-block-two {
     text-align: center;
-    overflow-y:scroll;
+    overflow-y: scroll;
     word-wrap: break-word;
 }
 

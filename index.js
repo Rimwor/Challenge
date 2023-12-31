@@ -6,8 +6,11 @@
   var textBlockRatio = 0.37645448;
 
   function adjustTextBlockHeight() {
-    var textBlockHeight = $('.image-block').height();
+    var textBlockHeight = $(window).height()*textBlockRatio;
     $('.text-block').height(textBlockHeight);
+    $('.image-block').height(textBlockHeight);
+    $('.image-container').height(textBlockHeight);
+    $('img').height(textBlockHeight);
   }
 
   $(window).on('resize', adjustTextBlockHeight).trigger('resize');
