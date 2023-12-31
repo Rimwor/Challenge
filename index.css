@@ -5,7 +5,6 @@ body, html {
     box-sizing: border-box;
     background: #efefef;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   
@@ -23,17 +22,22 @@ body, html {
     overflow: auto;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
-  .text-block p {
     margin: 0;
     text-align: center;
   }
+
+  .text-block:first-child::-webkit-scrollbar {
+    display: none;
+}
+
+.text-block:first-child {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
   
   .image-block {
     flex-grow: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   
