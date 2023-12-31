@@ -6,14 +6,14 @@ body, html {
     background: #efefef;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .container {
+.container {
     display: flex;
     width: 100%;
-  }
+}
   
-  .text-block {
+.text-block {
     background: #e3e3e3;
     min-width: 37.645448vw;
     display: flex;
@@ -24,9 +24,9 @@ body, html {
     box-sizing: border-box;
     margin: 0;
     text-align: center;
-  }
+}
 
-  .text-block:first-child::-webkit-scrollbar {
+.text-block:first-child::-webkit-scrollbar {
     display: none;
 }
 
@@ -35,14 +35,14 @@ body, html {
     scrollbar-width: none;  /* Firefox */
 }
   
-  .image-block {
+.image-block {
     flex-grow: 1;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .image-container img {
+.image-container img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-  }
+}
