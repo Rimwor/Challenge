@@ -7,54 +7,38 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     width: 100%;
-}
-
-/* TEXT BLOCKS ------------------------------------------------------ */
-.text-block {
-    background: #e3e3e3;
-    width: 37.645448%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text-block-one {
-    text-align: center;
-    overflow-y: hidden;
-    word-wrap: break-word;
-}
-
-.text-block-two {
-    text-align: center;
-    overflow-y: scroll;
-    word-wrap: break-word;
-}
-
-.text-wrapper {
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-/* IMAGE BLOCKS ------------------------------------------------------ */  
-.image-block {
-    flex-grow: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  }
   
-.image-container img {
+  .text-block {
+    background: #e3e3e3;
+    min-width: 37.645448vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .text-block p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .image-block {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-}
-  
-  
-  
-  
+  }

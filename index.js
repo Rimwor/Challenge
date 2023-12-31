@@ -3,17 +3,12 @@
 */
 
 (function($) {
-  var textBlockRatio = 0.37645448;
-
   function adjustTextBlockHeight() {
-    var textBlockHeight = $(window).height()*textBlockRatio;
-    $('.text-block').height(textBlockHeight);
-    $('.image-block').height(textBlockHeight);
-    $('.image-container').height(textBlockHeight);
-    $('img').height(textBlockHeight);
+    var imageHeight = $('.image-container img').height();
+    $('.text-block').height(imageHeight - 40);
   }
 
-  $(window).on('resize', adjustTextBlockHeight).trigger('resize');
-
+  $(window).on('load resize', function() {
+    adjustTextBlockHeight();
+  });
 })(jQuery);
-  
