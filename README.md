@@ -1,7 +1,9 @@
 > RESULT
 
 ![2024-01-06_18h36_51](https://github.com/Rimwor/Challenge/assets/80414308/af9f3988-9099-4fdf-8cdb-accf9b98a4ae)
-SCREEN-VIDEO: https://github.com/Rimwor/Challenge/assets/80414308/e43100c5-cbac-4ed9-93d6-10d69e369acc
+SCREEN-VIDEO: 
+https://github.com/Rimwor/Challenge/assets/80414308/4fb1cc02-f472-432a-a8ff-49447ca402f7
+
 
 > TASK
 
