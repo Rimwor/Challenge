@@ -56,7 +56,16 @@ body, html {
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1924px) {
+@media screen and (min-width: 1024px) and (max-width: 1524px) {
+    .text-block {
+        min-width: 37vw;
+    }
+    .image-block {
+        min-width: 250px;
+    }
+}
+
+@media screen and (min-width: 1540px) and (max-width: 1924px) {
     .text-block {
         min-width: 37vw;
     }
