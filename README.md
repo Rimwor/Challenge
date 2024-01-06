@@ -2,7 +2,9 @@
 
 ![2024-01-06_18h36_51](https://github.com/Rimwor/Challenge/assets/80414308/af9f3988-9099-4fdf-8cdb-accf9b98a4ae)
 SCREEN-VIDEO: 
-https://github.com/Rimwor/Challenge/assets/80414308/4fb1cc02-f472-432a-a8ff-49447ca402f7
+https://github.com/Rimwor/Challenge/assets/80414308/a8e33c10-4327-4d7d-85aa-062c433c86dc
+
+
 
 <br><br>
 <hr>
