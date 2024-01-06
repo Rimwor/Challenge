@@ -33,6 +33,11 @@ body, html {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+.text-wrapper {
+    padding: 20px;
+    box-sizing: border-box;
+}
   
 .image-block {
     flex-grow: 1;
@@ -48,7 +53,7 @@ body, html {
 
 @media screen and (min-width: 520px) and (max-width: 1024px) {
     .text-block {
-        min-width: 37vw;
+        min-width: 37.645448vw;
 
     }
     .image-block {
@@ -58,7 +63,7 @@ body, html {
 
 @media screen and (min-width: 1024px) and (max-width: 1524px) {
     .text-block {
-        min-width: 37vw;
+        min-width: 37.645448vw;
     }
     .image-block {
         min-width: 250px;
@@ -67,7 +72,7 @@ body, html {
 
 @media screen and (min-width: 1540px) and (max-width: 1924px) {
     .text-block {
-        min-width: 37vw;
+        min-width: 37.645448vw;
     }
     .image-block {
         min-width: 450px;
