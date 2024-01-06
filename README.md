@@ -6,7 +6,6 @@ https://github.com/Rimwor/Challenge/assets/80414308/4fb1cc02-f472-432a-a8ff-4944
 
 <br><br>
 <hr>
-<br><br>
 
 > TASK
 
